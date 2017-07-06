@@ -1,0 +1,17 @@
+{
+  "name": "yaoy",
+  "version": "1.0.0",
+  "description": "xiangmumingzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "\\yaoying"
+  ],
+  "author": "yaoying",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

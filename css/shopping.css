@@ -1,0 +1,94 @@
+.margin{
+	width:1000px;
+	margin:0 auto;
+}
+.header{
+	width:100%;
+	height:64px;
+	border-bottom: 1px solid #e8cbbd;
+	box-shadow: 0 0 4px #aaa;
+}
+.header-left{
+	float:left;
+}
+.header-left a img{
+	float:left;
+	margin:14px 17px;
+}
+.header-right{
+	float:right;
+}
+.drmember_sec{
+	margin-top:6px;
+	margin-left: 10px;
+	height:40px;
+	font-family: "微软雅黑";
+}
+#loginInInfo{
+	position: relative;
+	margin-right: 6px;
+	height:20px;
+}
+#loginInInfo .userName{
+	position: relative;
+	background: url(../img/bottom.png)no-repeat right center;
+	color:#C67C59;
+	padding: 0 15px 0 9px;
+}
+.dr_member-left{
+	margin-top:7px;
+	line-height: 20px;
+}
+.dr_member-left{
+	float:left;
+	margin-top:7px;
+	line-height: 20px;
+	height:20px;
+}
+.dr_member-left i{
+	display: inline-block;
+	padding: 0 15px 0 9px;
+	color: #8d8d8d;
+	background: url(../img/hr.png) no-repeat right center;
+	font-size: 12px;
+}
+a.help-right{
+	padding-left: 30px;
+	padding-right: 0;
+	color:#C67C59;
+	font-family: "微软雅黑";
+}
+.help-right span{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: url(../img/bread_right.png) right center no-repeat;
+	margin-top:2px;
+}
+.loginIn{
+	display: none;
+	width:84px;
+	height:108px;
+	position: absolute;
+	bottom: -88px;
+	left: 50%;
+	padding: 8px 0;
+	margin: -38px;
+	background: #fff;
+	border: 1px solid #F1F1F1;
+}
+.loginIn a{
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 17px;
+	background: none;
+	color:#C67C59;
+	font-family: "微软雅黑";
+}
+.loginIn a:hover{
+	color: #dcb19d;
+}
+#loginInInfo:hover .loginIn{
+	display: block;
+}
